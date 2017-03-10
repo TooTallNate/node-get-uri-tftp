@@ -3,13 +3,12 @@ var tftp = require('tftp');
 var path = require('path');
 var assert = require('assert');
 var getURI = require('get-uri');
-var toBuffer = require('stream-to-buffer');
+
+// extend
+require('../')(getURI.protocols)
 
 describe('get-uri-tftp', function () {
   var server, port;
-
-  // TODO: make relative requires work as expected
-  getURI.use(path.resolve(__dirname, '..'));
 
   before(function (done) {
     port = 12345;
