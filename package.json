@@ -1,6 +1,6 @@
 {
   "name": "get-uri-tftp",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "TFTP protocol support for `get-uri`",
   "main": "index.js",
   "scripts": {
