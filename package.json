@@ -26,6 +26,9 @@
     "extend": "3",
     "tftp": "~0.1.2"
   },
+  "peerDependencies": {
+    "get-uri": "2",
+  },
   "devDependencies": {
     "get-uri": "2",
     "mocha": "~3.2.0"
